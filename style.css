@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --soft-blue-color: hsl(215, 51%, 70%);
+  --cyan-color: hsl(178, 100%, 50%);
+  --main-bg-color: hsl(217, 54%, 11%);
+  --card-bg-color: hsl(216, 50%, 16%);
+  --line-color: hsl(215, 32%, 27%);
+  --white-color: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  height: 100vh;
+}
+
+span {
+  color: var(--soft-blue-color);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.container {
+  background-color: var(--card-bg-color);
+  padding: 20px;
+  width: 350px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.heading {
+  padding: 5% 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.heading:hover {
+  cursor: pointer;
+  color: var(--cyan-color);
+}
+
+.text {
+  font-weight: 300;
+  padding: 5% 0;
+  color: var(--soft-blue-color);
+}
+
+.flex-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5% 0;
+  border-bottom: 2px solid var(--line-color);
+}
+
+.flex-row-item {
+  display: flex;
+  align-items: center;
+}
+
+.nft-icon {
+  content: url("/images/icon-ethereum.svg");
+  height: 100%;
+  padding-right: 5px;
+}
+
+.clock-icon {
+  content: url("/images/icon-clock.svg");
+  height: 100%;
+  padding-right: 5px;
+}
+
+.nft-value {
+  font-weight: 400;
+  color: var(--cyan-color);
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 5% 0;
+}
+
+.avatar-icon {
+  content: url("/images/image-avatar.png");
+  height: 100%;
+  margin-right: 10px;
+  border: 1px solid var(--white-color);
+  border-radius: 50%;
+}
+
+.author-name {
+  color: var(--white-color);
+}
+
+.author-name:hover {
+  cursor: pointer;
+  color: var(--cyan-color);
+}
+
+.attribution {
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  color: var(--white-color);
+}
+.attribution a {
+  color: var(--soft-blue-color);
+}
