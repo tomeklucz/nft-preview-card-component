@@ -18,7 +18,7 @@
 <img src="/screenshots/Screenshot-02-desktop-active.PNG" alt="" width="100%"/>
 </p>
 
-### Li-activenks
+### Links
 
 - Solution URL: [GitHub repository](https://github.com/tomeklucz/nft-preview-card-component)
 - Live Site URL: [Netlify](https://tomeklucz-nft-preview-card-component.netlify.app/)
