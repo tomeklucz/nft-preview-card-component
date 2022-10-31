@@ -148,14 +148,3 @@ span {
   cursor: pointer;
   color: var(--cyan-color);
 }
-
-.attribution {
-  font-size: 0.75rem;
-  font-weight: 300;
-  font-style: italic;
-  text-align: center;
-  color: var(--white-color);
-}
-.attribution a {
-  color: var(--soft-blue-color);
-}
